@@ -1,0 +1,16 @@
+{ "toConvert": 
+	[
+		{
+	      "filename" : "rose.jpg",
+		  "resize"   : "50%",
+	      "saveAs"   : "somerose.png",
+	      "outFormat": "png"
+	    },
+        {
+	      "filename": "smiley.png",
+		  "resize"  : "50%",
+	      "saveAs"  : "smiley-resized.png"
+	    }
+  ]
+
+}
