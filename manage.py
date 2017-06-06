@@ -12,5 +12,5 @@ for convert_this in data['toConvert']:
 	 if hasattr(convert_this, "outFormat"):
 	 	os.system("convert "+convert_this['filename']+" -resize "+convert_this['resize']+" " + convert_this['outFormat'] + ":" + convert_this['saveAs']) 
 	 else:
-		 os.system("convert "+convert_this['filename']+" -resize "+convert_this['resize']+" " + convert_this['saveAs']) 
+	 	os.system("convert "+convert_this['filename']+" -resize "+convert_this['resize']+" " + convert_this['saveAs']) 
 
